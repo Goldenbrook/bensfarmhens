@@ -6,6 +6,9 @@ footer {
 body{
     margin: auto;
 }
+#margin {
+    margin: 1em;
+}
 nav {
     background: darkred;
     font-size: 1.5em;
