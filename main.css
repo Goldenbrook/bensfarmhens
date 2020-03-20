@@ -1,0 +1,42 @@
+footer {
+    background-color: darkgray;
+    height: 200px;
+}
+
+body{
+    margin: auto;
+}
+nav {
+    background: darkred;
+    font-size: 1.5em;
+}
+ul {
+    margin: auto;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+nav ul li {
+    padding: 1em;
+    color: white;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: darkred;
+}
+
+.sliding-img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 0% -200px;
+}
+#cover {
+    height: 60vh;
+    overflow: hidden;
+}
